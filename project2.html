@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Transcript</title>
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Latest compiled and minified CSS - Optional theme -->    
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- JQUERY -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Update these with your own fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <!-- linking external css file -->
+            <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <!-- <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header> -->
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#home">D E V N I S H</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav__item"><a href="#home" class="nav__link">TOP</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">ABOUT PROJECT</a></li>
+                        <li class="nav__item"><a href="#github" class="nav__link">GITHUB</a></li>
+                        <li class="nav__item"><a href="#footer" class="nav__link">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Project <strong>Transcript Generator</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">JAVA | ECLIPSE | JUNIT</p>
+            <img src="ppp2.jpeg" alt="side pose bw" class="intro__img img-thumbnail">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I did</h2>
+            <div class="services">
+                <div class="service">
+                    <h2>Introduction</h2>
+                    <p class="para">Reading an input file with student’s details to evaluate their respective GPAs and generating an unofficial transcript. Made this project under an academic course using Java language and it's principles. <br>
+                        More about the academic course can be found here :- <a class="eecs2030" href="https://www.eecs.yorku.ca/course_archive/2019-20/W/2030M/">EECS 2030</a>
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h2>Development</h2>
+                    <p class="para">Made use of object-oriented programming features such as encapsulation, static factory method, overridden methods, static and non-static components of an object and exception handling which led to a successful transcript generator.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h2>Guidance</h2>
+                    <p class="para">As this project was an academic project, I used the concepts I learnt throughout my course period in order to conclude this project as referring or getting a guidance in such projects was an academic violation.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="https://github.com/dhingranishaant/Transcript" class="btn" id="github">Follow up on <strong>Github</strong></a>
+        </section>
+        
+        
+        <!-- About me
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">A developer based out of New Delhi</p>
+           
+           <div class="about-me__body">
+               <p>I am an enthusiastic person who believes that passion is the true ingredient for success. 
+                   I am 20 years old and I am from New Delhi, India. I am capable of handling multiple tasks 
+                   at a single time and I am known to be very time effective. </p>
+                <p>I love to code and am currently pursuing a Bachelor's Degree majoring in Computer Science at 
+                    York University.</p>
+           </div>
+           
+           <img src="file:///Users/nishaantdhingra/Desktop/Portfolio/imgs/IMG_6728.jpg" alt="Nishaant sitting on stairs"
+           class="about-me__img">
+        </section> -->
+        
+        <!-- My Work -->
+        <!-- <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio"> -->
+                <!-- Portfolio item 01 -->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="file:///Users/nishaantdhingra/Desktop/computer-science-education.jpeg" alt="" class="portfolio__img">
+                </a> -->
+                
+                <!-- Portfolio item 02 -->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="file:///Users/nishaantdhingra/Desktop/computer-science-education.jpeg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+         -->
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <!-- replace email in future if in need! -->
+            <a href="mailto:hello@jane.dev" class="footer__link">dhingranishaant@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nishaant-dhingra/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/nishaant_11/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dhingranishaant">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
