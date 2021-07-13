@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nishaant's Portfolio</title>
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Latest compiled and minified CSS - Optional theme -->    
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- JQUERY -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Update these with your own fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <!-- linking external css file -->
+            <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- pre-loader -->
+        
+        <!-- New Navigation Bar (fixed) -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#home">D E V N I S H</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav__item"><a href="#home" class="nav__link">HOME</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">WHAT I DO</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">ABOUT ME</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">SKILLS</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">PROJECTS</a></li>
+                        <li class="nav__item"><a href="resume/resume.pdf" download="Nishaant Dhingra Resume">RESUME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Intro of the page -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Nishaant Dhingra</strong>
+            </h1>
+            <div class="section__subtitle section__subtitle--intro">
+                <div class="con">
+                    <p><span class="typed-text"></span><span class="cursor"></span></p>
+                </div>
+            </div>
+            <img src="imgs/IMG_6727.jpg" alt="Responsive Image of DEVNISH" class="intro__img img-circle img-rounded img-responsive">
+            <!-- <img src="imgs/IMG_6727.jpg" alt="side pose bw" class="intro__img"> -->
+        </section>
+
+        <!-- Scroll to top button - FONT AWESOME WEBSITE-->
+        <i class="fas fa-arrow-circle-up" onclick="topFunction()" id="myBtn" title="Go to top"></i> 
+        
+        <!-- Scroll to bottom button - FONT AWESOME WEBSITE-->
+        <i class="fas fa-arrow-circle-down" onclick="bottomFunction()" id="myBtn2" title="Connect With Nishaant"></i> 
+
+        <!-- My services / what i do-->        
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">A-BIT-ABOUT-MYSELF</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="sketch.png" alt="design picture">
+                                <h2>Designer</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>I love to design web sites and algorithms! Designing my own portfolio is my favourite hobby. <br>
+                                    <span class="glyphicon glyphicon-heart"></span></p></p>
+                                    <a class="unknown" href="#">READ MORE</a> 
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+              
+                <div class="column">
+                    <div class="card card2">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="reading.png" alt="design picture">
+                                <h2>Student</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>I am currently in my third year, studying at York University as a Computer Sceince Undergraduate. <br> <i class="fas fa-user-graduate"></i></p>
+                                <a class="unknown" href="#about">MORE ABOUT ME</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <div class="card card3">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="startup.png" alt="design picture">
+                                <h2>Developer</h2>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>I have been developing since 2 years! You can have a look at some of my projects I've done till now. <br><i class="far fa-hand-peace"></i></p>
+                                <a class="unknown" href="#work">PROJECTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">WHO-I-AM</h2>
+           <p class="section__subtitle section__subtitle--about">A developer based out of Toronto</p>
+           
+           <div class="about-me__body">
+               <p>I am an enthusiastic person who believes that passion is the true ingredient for success. 
+                   I am 20 years old and I am from New Delhi, India. I am capable of handling multiple tasks 
+                   at a single time and I am known to be very time effective. </p>
+                <p>I love to code and am currently pursuing a Bachelor's Degree majoring in Computer Science at 
+                    York University.</p>
+           </div>
+           
+           <img src="imgs/IMG_6728.jpg" alt="Nishaant sitting on stairs"
+           class="about-me__img">
+        </section>
+        
+        <!-- My Skills -->
+        <!-- <section class="skills_section" id="skills">
+            <h2 class="section-title">SKILLS</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <button class="btn"><h3 class="skills__subtitle">Technical Skills</h3></button>
+                    <div class="panel">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java</li>
+                            <li>Javascript</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>LaTeX</li>
+                            <li>Swift</li>
+                        </ul>
+                    </div>
+                    
+                    <button class="btn"><h3 class="skills__subtitle">Databases</h3></button>
+                    <div class="panel"><ul><li>MySQL</li></ul></div>
+
+                    <button class="btn"><h3 class="skills__subtitle">Courses</h3></button>
+                    <div class="panel">
+                        <ul>
+                            <li><strong>EECS2031: </strong>Software Tools</li>
+                            <li><strong>EECS2011: </strong>Fundamentals of Data Structures and Algorithms</li>
+                            <li><strong>EECS1012: </strong>Net-centric Introduction to Computing</li>
+                            <li><strong>EECS1022: </strong>Programming for Mobile Computing</li>
+                            <li><strong>EECS2030: </strong>Advanced Object Oriented Programming</li>
+                            <li><strong>EECS2021: </strong>Computer Organization</li>
+                            <li><strong>ECON1000: </strong>Microeconomics</li>
+                            <li><strong>EECS1010: </strong>Macroeconomics</li>
+                            <li><strong>ENVS1000: </strong>Environmental Sciences</li>
+                        </ul>
+                    </div>
+
+                    <button class="btn"><h3 class="skills__subtitle">Softwares</h3></button>
+                    <div class="panel">
+                        <ul>
+                            <li>GitHub</li>
+                            <li>Adobe Lightroom</li>
+                            <li>Microsoft Office</li>
+                            <li>Google Cloud Platform</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Google Suite</li>
+                        </ul>
+                    </div>
+
+                    <button class="btn"><h3 class="skills__subtitle">Coding Editors</h3></button>
+                    <div class="panel">
+                        <ul>
+                            <li>Eclipse</li>
+                            <li>Terminal</li>
+                            <li>Visual Studio Code</li>
+                            <li>Pycharm</li>
+                            <li>Android Studio Code</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills__img">
+                    <img src="assets/img/skill.jpg" alt="">
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section class="skills_section" id="skills">
+            <h2 class="section-title">TECHNICAL-SKILLS</h2>
+            <div class="skills-branch">
+                <p class="skills-title">HTML</p>
+                    <div class="cont">
+                        <div class="skills html">90%</div>
+                    </div>
+                <br>
+            </div>
+
+            <div class="skills-branch">
+                <p class="skills-title">CSS</p>
+                    <div class="cont">
+                        <div class="skills css">80%</div>
+                    </div>
+                <br>
+            </div>
+
+            <div class="skills-branch">
+                <p class="skills-title">JavaScript</p>
+                    <div class="cont">
+                        <div class="skills js">45%</div>
+                    </div>
+                <br>
+            </div>
+
+            <div class="skills-branch">
+                <p class="skills-title">Java</p>
+                    <div class="cont">
+                        <div class="skills php">80%</div>
+                    </div>
+                <br>
+            </div>
+
+            <div class="skills-branch">
+                <p class="skills-title">Python</p>
+                    <div class="cont">
+                        <div class="skills python">50%</div>
+                    </div>
+                <br>
+            </div>
+
+            <div class="skills-branch">
+                <p class="skills-title">LaTeX</p>
+                    <div class="cont">
+                        <div class="skills latex">90%</div>
+                    </div>
+                <br>
+            </div>
+
+            <div class="skills-branch">
+                <p class="skills-title">C / C++</p>
+                    <div class="cont">
+                        <div class="skills c">80%</div>
+                    </div>
+                <br>
+            </div>
+
+            <div class="skills-branch">
+                <p class="skills-title">Swift</p>
+                    <div class="cont">
+                        <div class="skills swift">40%</div>
+                    </div>
+                <br>
+            </div>
+        </section> -->
+ 
+        <section class="skills_section" id="skills">
+            <h2 class="section__title section__title--services">LANGUAGES-AND-MY-CONFIDENCE</h2>
+            <p class="section__subtitle section__subtitle--work">Hover on different languages to see how comfortable I am with using them!</p>
+            <div class="row-skills">
+                <div class="column-skills">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>HTML</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills html">95%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+              
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>Java</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills java">80%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>CSS</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills css">85%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>JavaScript</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills js">60%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>Python</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills python">70%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>C</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills c">80%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>C++</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills c">80%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>LaTeX</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills latex">90%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>Swift</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills swift">55%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>PHP</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills php">85%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>SQL</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="skills sql">85%</div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card card1">
+                        <div class="face face1">
+                            <div class="content">
+                                <!-- <img src="sketch.png" alt="design picture"> -->
+                                <h2>More to come...</h2>
+                            </div>
+                        </div>
+                    <br>
+                        <div class="face face2">
+                            <div class="cont">
+                                <div class="more-to-come">
+                                    <p>Learning new languages every now and then!</p>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">MY-PROJECTS</h2>
+            <p class="section__subtitle section__subtitle--work">My projects include academic as well as personal projects!</p>
+            <div class="container">
+                <br><br>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="project1.html"><div class="thumbnail">
+                                <img src="ppp1.jpeg" alt="">
+                                <div class="caption">
+                                    <h2>AMAZON PRODUCT PRICE TRACKING</h2>
+                                    <p>Track any Amazon product's price!</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+    
+                    <div class="col-sm-4">
+                        <a href="project2.html"><div class="thumbnail">
+                                <img src="ppp2.jpeg" alt="">
+                                <div class="caption">
+                                    <h2>TRANSCRIPT GENERATOR</h2>
+                                    <p>Generate transcripts and calculate GPAs!</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <a href="project4.html"><div class="thumbnail">
+                                <img src="ppp4.jpeg" alt="">
+                                <div class="caption">
+                                    <h2>WEATHER DASHBOARD</h2>
+                                    <p>Find weather details of any state of USA!</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href="project3.html"><div class="thumbnail">
+                                <img src="ppp3.jpeg" alt="">
+                                <div class="caption">
+                                    <h2>SHORTEST PATH FINDING</h2>
+                                    <p>Find the shortest way out from a city!</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href="project5.html"><div class="thumbnail">
+                                <img src="ppp5.jpeg" alt="">
+                                <div class="caption">
+                                    <h2>COUNTING RED BLOOD CELLS</h2>
+                                    <p>Algorithm to count the # of cell groups!</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href="project.html"><div class="thumbnail">
+                                <img src="2.gif" alt="">
+                                <div class="caption">
+                                    <h2>MENU SYSTEM</h2>
+                                    <p>Menu system to record student details!</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div>
+                    
+                </div>
+        </section>
+                
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- <img width="300" height="300" class="center" src="blogging.svg"> -->
+            <!-- replace email in future if in need! -->
+            <a href="mailto:hello@jane.dev" class="footer__link">dhingranishaant@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nishaant-dhingra/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/nishaant_11/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/dhingranishaant">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            
+            <br>
+            <div class="container">
+                <p>Copyright &#169 Nishaant Dhingra. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script src="js/scroll-bottom.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/scroll-up.js"></script>
+        <script src="js/typed.js"></script>
+    </body>
+</html>
