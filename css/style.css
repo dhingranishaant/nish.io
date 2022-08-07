@@ -254,6 +254,12 @@ header {
     font-size: var(--fs-h1);
 }
 
+.section__title--goals {
+    color: var(--clr-accent);
+    position: relative;
+    font-size: var(--fs-h1);
+}
+
 .section__title--services::after {
     content: '';
     display: block;
@@ -579,6 +585,12 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
+}
+
+/* My Goals */
+.my-goals{
+    background: var(--clr-dark);
+    text-align: center;
 }
 
 /* footer */
