@@ -590,6 +590,7 @@ header {
 /* My Goals */
 .my-goals{
     background: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;
 }
 
