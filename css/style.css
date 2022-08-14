@@ -587,6 +587,8 @@ header {
     opacity: .5;
 }
 
+#more {display: none;}
+
 /* My Goals */
 .my-goals{
     background: var(--clr-dark);

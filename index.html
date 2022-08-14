@@ -527,6 +527,46 @@
                 </div>
             </div>
         </section>
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">My Vision As An Engineer</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            
+            <!-- <div class="about-me__body"> -->
+                <p style="font-size: 24px;">There are many principles and ideals that have helped me gain an interest in engineering as a profession. 
+                The one principle that makes me the most passionate about engineering is my interest to solve the problem of online fraud. 
+                I strongly believe that getting a degree in Computer Science gives me those theoretical and practical skills that are really valuable in order to achieve my goals and keep following my passion. 
+                My ultimate goal is to <span id="dots">...</span><span id="more">become a Software Developer in order to enhance and use my problem-solving skills by making software that would help people avoid being scammed online.
+                In terms of organizations, every one of them is very engaged to secure their product. This gives me and people like me, a chance to work for those employers who focus on the betterment of society. According to me, organizations today think about security as a global issue and are aware of their social responsibility to help people and keep them secure.
+                My vision is to live in a world where every software is able to detect the possibility of a scam, or if that software is used for malicious activity. 
+                About 10% of the world population is comprised of people aged 65 and above. 
+                These 750 million people are the most common group who are targeted for online scams and frauds across the world. 
+                This will only become more true as people aged 65 and above are not up to date with current online fraud techniques. It is important to educate these 750 million people with the most updated online fraud information including the most common techniques and various other methods used by these attackers, as well as help in developing software that can help people avoid being scammed.
+                I have seen a lot of videos of people who are trying to solve these scams on YouTube, I have seen how devastated people are after being scammed, and I have also heard about it from my friends and family. This does not only give me a purpose but also made me understand how important it is to be updated with the latest information and be secure at each and every point of your life.</span></p>
+                
+                <button onclick="myFunction()" id="readMoreBtn">Read more</button>
+
+                <script>
+                    function myFunction() {
+                      var dots = document.getElementById("dots");
+                      var moreText = document.getElementById("more");
+                      var btnText = document.getElementById("readMoreBtn");
+                    
+                      if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more"; 
+                        moreText.style.display = "none";
+                      } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less"; 
+                        moreText.style.display = "inline";
+                      }
+                    }
+                    </script>
+            <!-- </div> -->
+            <img src="assets/gifs/c8a62c3f14fdf027de13e1755ddd0ec6.gif" alt="Me sitting on stairs"
+            class="about-me__img">
+         </section>
                 
         <!-- Footer -->
         <footer class="footer">
