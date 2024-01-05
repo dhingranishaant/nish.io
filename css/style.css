@@ -125,6 +125,10 @@ h3 { font-size: var(--fs-h3) }
     display: block;
 }
 
+.section__title--work{
+    color: #16e0bd;
+}
+
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-custom);
@@ -554,7 +558,7 @@ header {
 /* My Work */
 
 .my-work {
-    background-color: var(--clr-light);
+    background-color: var(--clr-dark);
     color: var(--clr-dark);
     text-align: center;    
 }

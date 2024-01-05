@@ -23,11 +23,9 @@
         
         <!-- linking external css file -->
             <link rel="stylesheet" href="css/style.css">
+            <script src="/js/typed.js"></script>
     </head>
     <body>
-
-        <!-- pre-loader -->
-        
         <!-- New Navigation Bar (fixed) -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -88,7 +86,7 @@
                     <br>
                         <div class="face face2">
                             <div class="content">
-                                <p>Currently, I am working as a Software Developer at <a href="https://www.soti.net/">SOTI</a>. 
+                                <p>I am studying full-time for Winter 2024. 
                                     To see my work portfolio, download my resume.<br>
                                     <span class="glyphicon glyphicon-heart"></span></p>
                                     <a class="unknown" href="resume/resume.pdf" download="Nishaant Dhingra Resume">RESUME</a>
@@ -108,7 +106,7 @@
                     <br>
                         <div class="face face2">
                             <div class="content">
-                                <p>I am currently in my fourth year, studying at York University as a Computer Science Undergraduate. <br> <i class="fas fa-user-graduate"></i></p>
+                                <p>I am currently in my fifth year, studying at York University as a Computer Science Undergraduate. <br> <i class="fas fa-user-graduate"></i></p>
                                 <a class="unknown" href="#about">MORE ABOUT ME</a>
                             </div>
                         </div>
@@ -126,7 +124,7 @@
                         <br>
                         <div class="face face2">
                             <div class="content">
-                                <p>I have been developing since 2 years! You can have a look at some of my projects I've done till now. <br><i class="fas fa-hand-peace"></i></p>
+                                <p>I have been developing since 3 years! You can have a look at some of my projects I've done till now. <br><i class="fas fa-hand-peace"></i></p>
                                 <a class="unknown" href="#work">PROJECTS</a>
                             </div>
                         </div>
@@ -142,7 +140,7 @@
            <p class="section__subtitle section__subtitle--about">A developer based out of Toronto</p>
            
            <div class="about-me__body">
-               <p>I am an enthusiastic person who believes that passion is the true ingredient for success. 
+               <!-- <p>I am an enthusiastic person who believes that passion is the true ingredient for success. 
                    I am 22 years old and I am from New Delhi, India. I am capable of handling multiple tasks 
                    at a single time and I am known to be very time effective. </p>
                 <p>I love to code and am currently pursuing a Bachelor's Degree majoring in Computer Science at 
@@ -150,7 +148,13 @@
                 <p>The purpose of my portfolio is that it gives me a platform to highlight some of my best work.
                     It allows me to be as creative as I can be to show who I am and how I think, to the world. It reflects
                     my skills, experiences, accomplishments, and my attributes as well. 
+                </p> -->
+                <p> I'm a passionate <b>Computer Science</b> student, and I thrive on the dynamic intersection of coding, problem-solving, and creative thinking. My journey in the realm of Computer Science has been a fascinating exploration of turning ideas into reality through the language of algorithms and the artistry of programming.<br>
+                    <b>What I Love About My Program</b>: In the vast landscape of Computer Science, what truly captivates me is <span id="dots">...</span><span id="more">the art of coding and problem-solving. I find joy in unraveling complex challenges, crafting elegant solutions, and witnessing the tangible impact of my code in action. It's the fusion of logic and creativity that makes this field endlessly intriguing. <br>
+                    <b>Most Rewarding Co-op Learning Experience</b>: One of the most rewarding chapters in my academic journey was during a co-op learning experience where I had the opportunity to dive deep into solving a real-world problem for a client. The sense of fulfillment derived from translating theoretical knowledge into a practical, impactful solution was incredibly gratifying. It reinforced my belief in the power of technology to address genuine challenges.<br>
+                    <!-- <b>Career Goal</b>: Looking ahead, my career goal is to pioneer innovations in the realm of virtual reality, specifically targeting therapeutic applications. I aspire to leverage my Computer Science expertise to develop immersive, therapeutic experiences that contribute to mental health and well-being. By combining cutting-edge technology with a deep understanding of human psychology, I aim to create solutions that make a meaningful difference in people's lives.</span><br> -->
                 </p>
+                <button onclick="myFunction()" id="readMoreBtn">Read more</button>
                 <br>
            </div>
            
@@ -159,7 +163,7 @@
         </section>
     
         <!-- My Skills -->
-        <section class="skills_section" id="skills">
+        <!-- <section class="skills_section" id="skills">
             <h2 class="section__title section__title--services">PROGRAMMING LANGUAGES</h2>
             <p class="section__subtitle section__subtitle--work">Hover on different languages to see how comfortable I am with using them!</p>
             <div class="row-skills">
@@ -327,7 +331,6 @@
                     <div class="card card1">
                         <div class="face face1">
                             <div class="content">
-                                <!-- <img src="sketch.png" alt="design picture"> -->
                                 <h2>SQL</h2>
                             </div>
                         </div>
@@ -390,7 +393,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- My Work -->
         <section class="my-work" id="work">
@@ -399,7 +402,7 @@
             <div class="container">
                 <br><br>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <!-- <div class="col-sm-4">
                         <a href="project1.html"><div class="thumbnail">
                                 <img src="assets/imgs/ppp1.jpeg" alt="">
                                 <div class="caption">
@@ -408,7 +411,7 @@
                                 </div>
                             </div> 
                         </a>
-                    </div>
+                    </div> -->
     
                     <div class="col-sm-4">
                         <a href="project2.html"><div class="thumbnail">
@@ -442,6 +445,17 @@
                             </div> 
                         </a>
                     </div>
+
+                    <!-- <div class="col-sm-4">
+                        <a href="project5.html"><div class="thumbnail">
+                                <img src="assets/imgs/ppp6.jpeg" alt="">
+                                <div class="caption">
+                                    <h2>EAZY SURVEY</h2>
+                                    <p>Conducting surveys by users, designed by the admins!</p>
+                                </div>
+                            </div> 
+                        </a>
+                    </div> -->
 
 <!--                     <div class="col-sm-4">
                         <a href="project5.html"><div class="thumbnail">
@@ -546,24 +560,6 @@
                 I have seen a lot of videos of people who are trying to solve these scams on YouTube, I have seen how devastated people are after being scammed, and I have also heard about it from my friends and family. This does not only give me a purpose but also made me understand how important it is to be updated with the latest information and be secure at each and every point of your life.</span></p>
                 
                 <button onclick="myFunction()" id="readMoreBtn">Read more</button>
-
-                <script>
-                    function myFunction() {
-                      var dots = document.getElementById("dots");
-                      var moreText = document.getElementById("more");
-                      var btnText = document.getElementById("readMoreBtn");
-                    
-                      if (dots.style.display === "none") {
-                        dots.style.display = "inline";
-                        btnText.innerHTML = "Read more"; 
-                        moreText.style.display = "none";
-                      } else {
-                        dots.style.display = "none";
-                        btnText.innerHTML = "Read less"; 
-                        moreText.style.display = "inline";
-                      }
-                    }
-                    </script>
             <!-- </div> -->
             <img src="assets/gifs/c8a62c3f14fdf027de13e1755ddd0ec6.gif" alt="Me sitting on stairs"
             class="about-me__img">
@@ -578,12 +574,6 @@
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://www.linkedin.com/in/nishaant-dhingra/">
                         <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.instagram.com/nishaantd/">
-                        <i class="fab fa-instagram"></i>
                     </a>
                 </li>
                 
